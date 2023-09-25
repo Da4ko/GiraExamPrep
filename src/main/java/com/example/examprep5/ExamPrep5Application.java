@@ -1,0 +1,13 @@
+package com.example.examprep5;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class ExamPrep5Application {
+
+    public static void main(String[] args) {
+        SpringApplication.run(ExamPrep5Application.class, args);
+    }
+
+}
