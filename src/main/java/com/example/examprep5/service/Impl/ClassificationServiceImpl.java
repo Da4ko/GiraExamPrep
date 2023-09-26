@@ -29,4 +29,9 @@ public class ClassificationServiceImpl implements ClassificationService {
                     });
         }
     }
+
+    @Override
+    public Classification findByName(ClassificationName classificationName) {
+        return classificationRepository.findByClassificationName(classificationName).orElse(null);
+    }
 }
